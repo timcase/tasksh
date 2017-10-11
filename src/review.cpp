@@ -261,7 +261,7 @@ static void reviewLoop (const std::vector <std::string>& uuids, unsigned int lim
       else if (response == "s") { std::cout << "Skipped\n\n"; ++current;             }
       else if (response == "c") { completeTask (uuid);        ++current; ++reviewed; }
       else if (response == "t") { scheduleToday (uuid);       ++current; ++reviewed; }
-      else if (response == "w") { scheduleThisWeek (uuid);    ++current; ++reviewed; }
+      else if (response == "w") { scheduleThisweek (uuid);    ++current; ++reviewed; }
       else if (response == "u") { unscheduleTask (uuid);      ++current; ++reviewed; }
       else if (response == "d") { deleteTask (uuid);          ++current; ++reviewed; }
       else if (response == "")  { reviewTask (uuid);          ++current; ++reviewed; }
