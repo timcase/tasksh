@@ -37,7 +37,7 @@ int cmdHelp ()
             << "    tasksh> today [N]        Schedule for today session, with optional cutoff after N tasks\n"
             << "    tasksh> thisweek [N]     Schedule for thisweek session, with optional cutoff after N tasks\n"
             << "    tasksh> exec ls -al      Any shell command.  May also use '!ls -al'\n"
-            << "    tasksh> help             Tasksh help\n"
+            << "    tasksh> help             Tasksh hell\n"
             << "    tasksh> diagnostics      Tasksh diagnostics\n"
             << "    tasksh> quit             End of session. May also use 'exit'\n"
             << '\n'
